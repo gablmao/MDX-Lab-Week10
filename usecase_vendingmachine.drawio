@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T10:09:49.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="N0JfVhwJ86iwnu4PHcvz" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T10:20:51.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="I6Pp4nvPurrP6NlrzMOf" version="22.1.5" type="github">
   <diagram name="Page-1" id="nY_bA1Mb-mZGXa47FYcN">
     <mxGraphModel dx="1167" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,13 +14,13 @@
           <mxGeometry x="30" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-5" value="select coffee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-1">
-          <mxGeometry x="20" y="135" width="120" height="80" as="geometry" />
+          <mxGeometry x="90" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-7" value="add-on milk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-1">
-          <mxGeometry x="160" y="180" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-9" value="add-on sugar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-1">
-          <mxGeometry x="160" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="240" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.055;exitY=0.28;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="75ZUVTC_8RgHfgwMum_9-1" source="75ZUVTC_8RgHfgwMum_9-7" target="75ZUVTC_8RgHfgwMum_9-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -33,6 +33,9 @@
             <mxPoint x="140" y="290" as="sourcePoint" />
             <mxPoint x="190" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-33" value="select cup size" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-1">
+          <mxGeometry x="10" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-2" value="Pedestrian" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="155" width="30" height="60" as="geometry" />
@@ -68,7 +71,7 @@
         <mxCell id="75ZUVTC_8RgHfgwMum_9-17" value="Primary Actors: Pedestrian" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-15">
           <mxGeometry y="60" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="75ZUVTC_8RgHfgwMum_9-18" value="Preconditions:&lt;br&gt;1. Pedestrian had already chosen either choice of drinks&lt;br&gt;&lt;br&gt;Main Flow:&lt;br&gt;1. Pedestrian selects either Tea or Coffee&lt;br&gt;2. If Pedestrian picked Coffee, pedestrian selects either Sugar or Milk&lt;br&gt;3. System/vending machine calculates price&lt;br&gt;4. System/vending machine requests payment&lt;br&gt;5. System either accepts or declines payment&lt;br&gt;&lt;br&gt;Postconditions:&lt;br&gt;1. Drink has been paid and dispensed." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-15">
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-18" value="Preconditions:&lt;br&gt;1. Pedestrian had already chosen either choice of drinks&lt;br&gt;&lt;br&gt;Main Flow:&lt;br&gt;1. Pedestrian selects either Tea or Coffee&lt;br&gt;2. If Pedestrian picked Coffee, pedestrian selects either Sugar or Milk&lt;br&gt;3. System/vending machine calculates price&lt;br&gt;4. System/vending machine requests payment&lt;br&gt;5. System either accepts or declines payment&lt;br&gt;&lt;br&gt;Postconditions:&lt;br&gt;1. Drink has been paid, poured and dispensed." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-15">
           <mxGeometry y="90" width="380" height="190" as="geometry" />
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-25" value="Use Case: Select Tea" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -94,6 +97,24 @@
         </mxCell>
         <mxCell id="75ZUVTC_8RgHfgwMum_9-32" value="Preconditions:&lt;br&gt;1. Pedestrian, prior to picking Coffee, chose a cup size to have&lt;br&gt;&lt;br&gt;Main Flow:&lt;br&gt;1. Pedestrian selects cup size&lt;br&gt;2. Pedestrian selects Coffee&lt;br&gt;&lt;br&gt;Postconditions:&lt;br&gt;1. System has chosen Coffee for it to pour to a cup&lt;br&gt;&lt;br&gt;Alternative Flow:&lt;br&gt;1. After picking coffee, System gives option to add either sugar or milk or both&lt;br&gt;2. Pedestrian selects sugar or&lt;br&gt;3. Pedestrian selects milk or&lt;br&gt;4. Pedestrian selects both" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-29">
           <mxGeometry y="90" width="370" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="75ZUVTC_8RgHfgwMum_9-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-39" value="Use Case: Select Cup Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="670" width="370" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-40" value="Brief Description: Selects what size of the cup the system uses" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-39">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-41" value="Primary Actors: Pedestrian" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-39">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75ZUVTC_8RgHfgwMum_9-42" value="Preconditions:&lt;br&gt;1. Pedestrian started the system&lt;br&gt;&lt;br&gt;Main Flow:&lt;br&gt;1. Pedestrian starts the system/presses Start button&lt;br&gt;2. Pedestrian selects cup size&lt;br&gt;&lt;br&gt;Postconditions:&lt;br&gt;1. System knows what cup to dispense and pour" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="75ZUVTC_8RgHfgwMum_9-39">
+          <mxGeometry y="90" width="370" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
